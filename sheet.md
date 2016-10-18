@@ -532,6 +532,13 @@ import scipy.stats as st
 st.norm.ppf(.95)    # 1.6448536269514722
 st.norm.cdf(1.64)   # 0.94949741652589625
 ```
+![alt text](http://i.stack.imgur.com/fGYNp.png "One-tailed")
+
+```python
+st.norm.ppf(.975)   # 1.959963984540054
+st.norm.ppf(.025)   # -1.960063984540054
+```
+![alt text](http://i.stack.imgur.com/hmjsp.png "Two-tailed")
 
 ## Pandas (`import pandas as pd`)
 
