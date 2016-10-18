@@ -526,6 +526,12 @@ b = linalg.expm(a)                # Matrix exponential
 c = linalg.logm(a)                # Matrix logarithm
 ```
 
+### statistical tests
+```python
+import scipy.stats as st
+st.norm.ppf(.95)    # 1.6448536269514722
+st.norm.cdf(1.64)   # 0.94949741652589625
+```
 
 ## Pandas (`import pandas as pd`)
 
